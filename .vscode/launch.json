@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "name": "Run & Debug (Nodemon)",
+      "program": "${workspaceFolder}/src/index.ts",
+      "request": "launch",
+      "restart": true,
+      "runtimeExecutable": "nodemon",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Debug (Nodemon)",
+      "port": 9229,
+      "restart": true,
+      "protocol": "inspector"
+    }
+  ]
+}

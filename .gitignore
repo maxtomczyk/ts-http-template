@@ -1,0 +1,6 @@
+node_modules/
+.env
+docs/_api.json
+docs/static.html
+.DS_Store
+dist/
